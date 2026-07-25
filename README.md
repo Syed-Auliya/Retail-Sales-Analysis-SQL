@@ -7,42 +7,69 @@ The project is designed to showcase practical SQL concepts and analytical thinki
 
 ## Objectives
 Create and set up a retail sales database in PostgreSQL.
+
 Import and organize retail sales data.
+
 Clean the dataset by identifying and removing missing values.
+
 Perform exploratory data analysis (EDA).
+
 Solve real-world business questions using SQL.
+
 Generate meaningful business insights from sales data.
+
 ## Tools & Technologies
 Database: PostgreSQL
+
 Language: SQL
+
 IDE: pgAdmin 4
+
 ## Database Information
 
 Database Name:sql_project1_db
+
 Table Name:retail_sales
+
 Table Schema:
 Column	Data Type
+
 transactions_id	INT (Primary Key)
+
 sale_date	DATE
+
 sale_time	TIME
+
 customer_id	INT
+
 gender	VARCHAR(15)
+
 age	INT
+
 category	VARCHAR(20)
+
 quantity	INT
+
 price_per_unit	FLOAT
+
 cogs	FLOAT
+
 total_sale	FLOAT
+
 ## Project Workflow
 1. Database Setup
-Created the database and retail sales table.
+   
+ Created the database and retail sales table.
 Imported the CSV dataset into PostgreSQL.
 Added a Primary Key to ensure unique transactions.
-2. Data Cleaning
+
+3. Data Cleaning
+ 
 Renamed incorrectly named columns.
 Checked for missing (NULL) values.
 Removed incomplete records.
 Validated the dataset before analysis.
+
 3. Exploratory Data Analysis (EDA)
 
 Performed exploratory analysis to understand the dataset, including:
