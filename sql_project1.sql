@@ -5,7 +5,7 @@ CREATE DATABASE sql_project1_db;
 DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales
 				(
-				transactions_id	INT,
+				transactions_id	INT PRIMARY KEY,
 				sale_date DATE,
 				sale_time TIME,
 				customer_id	INT,
