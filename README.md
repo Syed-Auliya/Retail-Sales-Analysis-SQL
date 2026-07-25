@@ -63,26 +63,22 @@ total_sale	FLOAT
 Imported the CSV dataset into PostgreSQL.
 Added a Primary Key to ensure unique transactions.
 
-3. Data Cleaning
- 
+2. Data Cleaning 
 Renamed incorrectly named columns.
 Checked for missing (NULL) values.
 Removed incomplete records.
 Validated the dataset before analysis.
 
 3. Exploratory Data Analysis (EDA)
-
 Performed exploratory analysis to understand the dataset, including:
-
 Total number of sales
 Total number of unique customers
 Product categories available
 Gender distribution
 Sales date range
 4. Business Analysis
-
+5. 
 The project answers several real-world business questions, including:
-
 Retrieve all sales made on a specific date.
 Find Clothing purchases with quantity greater than or equal to 4 during November 2022.
 Calculate total sales and total orders for each product category.
