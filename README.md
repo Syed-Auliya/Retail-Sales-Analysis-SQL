@@ -75,6 +75,7 @@ Total number of unique customers
 Product categories available
 Gender distribution
 Sales date range
+
 4. Business Analysis:
 The project answers several real-world business questions, including:
 
